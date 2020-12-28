@@ -1,0 +1,54 @@
+html {
+    font-size: 20px;;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #293241;
+    padding: 0 20px 0 20px;
+    border-style: solid;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Ultra', serif;
+    font-size: 100px;
+    letter-spacing: 3px;
+    color: #EE6C4D;
+    text-shadow: 10px 10px 20px #00171f;
+    margin: 0 auto;
+    text-shadow: #74C69D;
+}
+.title:hover {
+    color: #4deec8;
+}
+
+#profile-pic {
+    display: block;
+    text-align: center;
+    border-radius: 20%;
+    width: 40%;
+    height: auto;
+    border-style: double;
+    border-color: #3D5A80;
+    border-width: 10px;
+    margin: 0 auto;
+}
+/* TODO: smooth transition from orange to green */
+#profile-pic:hover {
+    color: #74C69D;
+}
+
+/* TODO: class or id for paragraphs (decide what to do with them) */
+p {
+    text-align: justify;
+    color: #E0FBFC
+}
+
+a {
+    text-decoration: none;
+}
+
